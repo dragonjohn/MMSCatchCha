@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SCCatch</string>
+    <string name="url_text">Choose Program:</string>
+    <string name="action_settings">Settings</string>
+    <string name="date_text">Choose date:</string>
+    <string name="action_about">About</string>
+</resources>
