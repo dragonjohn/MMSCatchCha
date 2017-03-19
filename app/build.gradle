@@ -1,9 +1,10 @@
 apply plugin: 'android'
 
 android {
+    signingConfigs {
+    }
     compileSdkVersion 19
-    buildToolsVersion "23.0.3"
-
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "dragonjohn.mmscatchcha"
         minSdkVersion 15
@@ -20,6 +21,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:support-v4:19.+'
 }
